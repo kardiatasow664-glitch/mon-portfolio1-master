@@ -7,6 +7,8 @@ import Services from "./Pages/Services";
 import Portfolio from "./Pages/Portfolio";
 import Contact from "./Pages/Contact";
 import Home from "./Pages/Home";
+import Detail from "./Pages/Detail";
+
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/portfolio" element={<Portfolio />} />
+         <Route path="/detail/:id" element={<Detail />} />
+
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
