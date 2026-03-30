@@ -23,7 +23,7 @@ nav {
 }
 
 nav h1 {
-   color: #0a0101;
+   color: #fafafa;
 }
 
 /* lien */
@@ -54,7 +54,7 @@ nav h1 {
 
 
 .lien p , .lien_mobile p {
-  color:white;
+  color:rgb(253, 247, 247);
  
 }
 .lien p:hover {
