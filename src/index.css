@@ -13,7 +13,7 @@ nav {
   justify-content: space-between;
   padding: 20px 30px;
   height: 8vh;
-  color: rgb(8, 1, 1);
+  color: rgb(232, 230, 230);
   position: relative;
   background-color: #0a1bdb;
 
@@ -32,6 +32,7 @@ nav h1 {
   gap: 50px;
   top: 100px;
   left: 200px;
+  color: #ccc;
   
 }
 
@@ -128,7 +129,7 @@ font-size: 14px;
 /* HERO */
 .hero {
   padding: 10rem 5rem;
-  background-color: #081e64;
+  background-color: #dcdde1;
 }
 
 .hero-container {
